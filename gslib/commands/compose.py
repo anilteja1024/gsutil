@@ -32,7 +32,7 @@ from gslib.third_party.storage_apitools import storage_v1_messages as apitools_m
 from gslib.utils.encryption_helper import GetEncryptionKeyWrapper
 from gslib.utils.translation_helper import PreconditionsFromHeaders
 
-MAX_COMPOSE_ARITY = 32
+MAX_COMPOSE_ARITY = 2000
 
 _SYNOPSIS = """
   gsutil compose gs://bucket/obj1 [gs://bucket/obj2 ...] gs://bucket/composite
